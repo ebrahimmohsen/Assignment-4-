@@ -97,7 +97,12 @@
             Console.WriteLine("Result: " + result);
             #endregion
 
-            
+            #region Q13 Reverse a String
+            string str = Console.ReadLine();
+            char[] chars = str.ToCharArray();
+            Array.Reverse(chars);
+            Console.WriteLine(new string(chars));
+            #endregion
 
         }
 

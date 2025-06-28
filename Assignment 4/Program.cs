@@ -27,6 +27,14 @@
             Console.WriteLine(num1 % 2 == 0 ? "Even" : "Odd");
             #endregion
 
+            #region Q5 Vowel or Consonant
+            char ch = char.ToLower(Console.ReadKey().KeyChar);
+            Console.WriteLine();
+            Console.WriteLine("aeiou".Contains(ch) ? "vowel" : "consonant");
+            #endregion
+
+
+
         }
 
 

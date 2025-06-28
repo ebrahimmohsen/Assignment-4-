@@ -60,6 +60,15 @@
             Console.WriteLine(result);
             #endregion
 
+            #region Q10 Marks Total, Avg, %
+            int total = 0;
+            for (int i = 1; i <= 5; i++)
+                total += int.Parse(Console.ReadLine());
+            float average = total / 5f;
+            float percentage = (total / 500f) * 100;
+            Console.WriteLine($"Total = {total}, Avg = {average}, % = {percentage}");
+            #endregion
+
 
         }
 

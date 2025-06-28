@@ -128,6 +128,20 @@
                 if (isPrime) Console.Write(i + " ");
             }
             #endregion
+
+            #region Q16 Decimal to Binary
+            int number1 = int.Parse(Console.ReadLine());
+            int binary = 0, baseVal = 1;
+
+            while (number1 > 0)
+            {
+                int rem = number1 % 2;
+                binary += rem * baseVal;
+                baseVal *= 10;
+                number1 /= 2;
+            }
+            Console.WriteLine("Binary: " + binary);
+            #endregion
         }
 
 

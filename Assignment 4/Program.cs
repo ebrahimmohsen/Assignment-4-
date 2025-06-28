@@ -167,6 +167,20 @@
                 Console.WriteLine("Leave Company");
             #endregion
 
+            #region Q19  Identity Matrix
+            int N = int.Parse(Console.ReadLine());
+            for (int i = 0; i < N; i++)
+            {
+                for (int j = 0; j < N; j++)
+                    Console.Write(i == j ? "1 " : "0 ");
+                Console.WriteLine();
+            }
+            #endregion 
+
+
+
+
+
         }
 
 

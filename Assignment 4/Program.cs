@@ -175,9 +175,14 @@
                     Console.Write(i == j ? "1 " : "0 ");
                 Console.WriteLine();
             }
-            #endregion 
+            #endregion
 
-
+            #region Q20 Sum of Array
+            int[] arr = { 1, 2, 3, 4, 5 };
+            int sum = 0;
+            foreach (int val in arr) sum += val;
+            Console.WriteLine("Sum: " + sum);
+            #endregion
 
 
 

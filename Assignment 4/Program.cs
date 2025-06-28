@@ -142,6 +142,18 @@
             }
             Console.WriteLine("Binary: " + binary);
             #endregion
+
+            #region Q17 Points on a Line
+            double x1 = double.Parse(Console.ReadLine());
+            double y1 = double.Parse(Console.ReadLine());
+            double x2 = double.Parse(Console.ReadLine());
+            double y2 = double.Parse(Console.ReadLine());
+            double x3 = double.Parse(Console.ReadLine());
+            double y3 = double.Parse(Console.ReadLine());
+
+            double area = 0.5 * (x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2));
+            Console.WriteLine(area == 0 ? "Points lie on a straight line" : "Not on a straight line");
+            #endregion
         }
 
 

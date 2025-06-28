@@ -104,6 +104,16 @@
             Console.WriteLine(new string(chars));
             #endregion
 
+            #region Q14 Reverse an Integer
+            int number = int.Parse(Console.ReadLine());
+            int rev = 0;
+            while (num != 0)
+            {
+                rev = rev * 10 + number % 10;
+                number /= 10;
+            }
+            Console.WriteLine("Reversed: " + rev);
+            #endregion
         }
 
 

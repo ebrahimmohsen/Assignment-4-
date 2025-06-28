@@ -22,6 +22,11 @@
             Console.WriteLine("Min = " + Math.Min(a, Math.Min(b, c)));
             #endregion
 
+            #region Q4 Even or Odd
+            int num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine(num1 % 2 == 0 ? "Even" : "Odd");
+            #endregion
+
         }
 
 

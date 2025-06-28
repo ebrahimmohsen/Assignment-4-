@@ -51,7 +51,16 @@
                 Console.Write(i + " ");
             #endregion
 
-            #region Q
+            #region Q9 Write a program that takes two integers then prints the power
+            int NUM1 = int.Parse(Console.ReadLine());
+            int NUM2 = int.Parse(Console.ReadLine());
+            int result = 1;
+            for (int i = 0; i < NUM2; i++)
+                result *= NUM1;
+            Console.WriteLine(result);
+            #endregion
+
+
         }
 
 

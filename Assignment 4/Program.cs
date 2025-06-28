@@ -69,6 +69,17 @@
             Console.WriteLine($"Total = {total}, Avg = {average}, % = {percentage}");
             #endregion
 
+            #region Q11 Days in Month
+            int m = int.Parse(Console.ReadLine());
+            int days = m switch
+            {
+                1 or 3 or 5 or 7 or 8 or 10 or 12 => 31,
+                4 or 6 or 9 or 11 => 30,
+                2 => 28,
+                _ => 0
+            };
+            Console.WriteLine("Days in Month: " + days);
+            #endregion
 
         }
 

@@ -13,11 +13,17 @@
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine(n < 0 ? "negative" : "positive");
             #endregion
-            
 
+            #region Q3 Max and Min of 3 Numbers
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c = int.Parse(Console.ReadLine());
+            Console.WriteLine("Max = " + Math.Max(a, Math.Max(b, c)));
+            Console.WriteLine("Min = " + Math.Min(a, Math.Min(b, c)));
+            #endregion
 
         }
-        
+
 
     }
 }

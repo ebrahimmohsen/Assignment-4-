@@ -197,6 +197,11 @@
                 Console.WriteLine($"{group.Key} appears {group.Count()} times");
             #endregion 
 
+            #region Q23 Max and Min in Array
+            int[] arr3 = { 10, 5, 8, 3, 9 };
+            Console.WriteLine("Max = " + arr3.Max());
+            Console.WriteLine("Min = " + arr3.Min());
+            #endregion
 
 
 

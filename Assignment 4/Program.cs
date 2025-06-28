@@ -81,6 +81,24 @@
             Console.WriteLine("Days in Month: " + days);
             #endregion
 
+            #region Q12 Simple Calculator
+            double x = double.Parse(Console.ReadLine());
+            char op = char.Parse(Console.ReadLine());
+            double y = double.Parse(Console.ReadLine());
+
+            double result1 = op switch
+            {
+                '+' => x + y,
+                '-' => x - y,
+                '*' => x * y,
+                '/' => y != 0 ? x / y : double.NaN,
+                _ => double.NaN
+            };
+            Console.WriteLine("Result: " + result);
+            #endregion
+
+            
+
         }
 
 

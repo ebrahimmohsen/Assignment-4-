@@ -44,6 +44,14 @@
             for (int i = 1; i <= 12; i++)
                 Console.Write(num3 * i + " ");
             #endregion
+
+            #region Q8 Even Numbers from 1 to N
+            int num4 = int.Parse(Console.ReadLine());
+            for (int i = 2; i <= num4; i += 2)
+                Console.Write(i + " ");
+            #endregion
+
+            #region Q
         }
 
 

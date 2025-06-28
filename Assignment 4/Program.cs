@@ -9,6 +9,15 @@
             Console.WriteLine((num % 3 == 0 && num % 4 == 0) ? "Yes" : "No");
             #endregion
 
+            #region Q2 Positive or Negative
+            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine(n < 0 ? "negative" : "positive");
+            #endregion
+            
+
+
         }
+        
+
     }
 }

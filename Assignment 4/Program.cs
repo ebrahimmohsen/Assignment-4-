@@ -39,6 +39,11 @@
                 Console.Write(i + " ");
             #endregion
 
+            #region Q7 Multiplication Table
+            int num3 = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= 12; i++)
+                Console.Write(num3 * i + " ");
+            #endregion
         }
 
 

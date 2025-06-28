@@ -191,6 +191,14 @@
             Console.WriteLine(string.Join(" ", merged));
             #endregion
 
+            #region Q22 Count Frequency
+            int[] arr1 = { 1, 2, 2, 3, 3, 3 };
+            foreach (var group in arr1.GroupBy(x => x))
+                Console.WriteLine($"{group.Key} appears {group.Count()} times");
+            #endregion 
+
+
+
 
 
         }

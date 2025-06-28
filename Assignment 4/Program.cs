@@ -154,6 +154,19 @@
             double area = 0.5 * (x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2));
             Console.WriteLine(area == 0 ? "Points lie on a straight line" : "Not on a straight line");
             #endregion
+
+            #region Q18 Worker Efficiency
+            float hours = float.Parse(Console.ReadLine());
+            if (hours >= 2 && hours < 3)
+                Console.WriteLine("Highly Efficient");
+            else if (hours >= 3 && hours < 4)
+                Console.WriteLine("Increase Speed");
+            else if (hours >= 4 && hours <= 5)
+                Console.WriteLine("Training Required");
+            else
+                Console.WriteLine("Leave Company");
+            #endregion
+
         }
 
 

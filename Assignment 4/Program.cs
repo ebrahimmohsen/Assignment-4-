@@ -184,6 +184,13 @@
             Console.WriteLine("Sum: " + sum);
             #endregion
 
+            #region Q21 Merge Two Arrays Sorted
+            int[] A = { 1, 3, 5 };
+            int[] B = { 2, 4, 6 };
+            int[] merged = A.Concat(B).OrderBy(x => x).ToArray();
+            Console.WriteLine(string.Join(" ", merged));
+            #endregion
+
 
 
         }

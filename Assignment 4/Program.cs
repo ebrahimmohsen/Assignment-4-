@@ -33,7 +33,11 @@
             Console.WriteLine("aeiou".Contains(ch) ? "vowel" : "consonant");
             #endregion
 
-
+            #region Q6 Print from 1 to N
+            int num2 = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= num2; i++)
+                Console.Write(i + " ");
+            #endregion
 
         }
 
